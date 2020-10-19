@@ -6,31 +6,25 @@
   margin: 0 auto;
 }
 
-/* navigation bar */
-.flexbox-container {
-  display: flex;
-  background: #d9ead3ff;
-  height: 250px;
-  width: 100%;
-  align-items: center;
+/* The menu */
+.menu {
+  overflow: hidden;
+  background-color: #333;
 }
-.flexbox-container5 > div {
-  display: flex;
-  width: 50%;
-}   
-.flexbox-container2 {flex-direction: row-reverse;}
-.flexbox-container1 div {
-  height: 100px;
-  width: 100px;
-  margin: 30px;
+/* menu links */
+.menu a {
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
 }
-.yellow { background: #fff2ccff;}
-.orange { background: #fce5cdff;}
-.taro { background: #ead1dcff;}
-.purple {
-  background: #d9d2e9ff;
-  height: 100px;
-  width: 100px;
-  margin: 30px;
+/* change color on hover */
+.menu a:hover {
+  background-color: #ddd;
+  color: black;
 }
-
+.flexbox1 {
+  float: right;
+}
