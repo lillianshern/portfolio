@@ -39,3 +39,13 @@
 #cvwrapper {
   text-align: center;
 }
+
+#contact{
+  width: 300px;
+  text-align: center;
+}
+
+
+#contact > h1 {
+  text-align: center;
+}
