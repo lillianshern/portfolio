@@ -35,17 +35,41 @@
   width: 90%;
   margin: 0 auto;
 }
-
-#cvwrapper {
-  text-align: center;
+.container {
+  color: black;
 }
-
 #contact{
   width: 300px;
   text-align: center;
 }
 
-
 #contact > h1 {
   text-align: center;
 }
+
+/* css for the flexbox in CV */
+/* Column container */
+.row {  
+  display: flex;
+  flex-wrap: wrap;
+}
+/* Create two unequal columns that sits next to each other */
+/* Sidebar/left column */
+.side {
+  flex: 30%;
+  background-color: #f1f1f1;
+  padding: 20px;
+}
+/* Main column */
+.main {
+  flex: 70%;
+  background-color: white;
+  padding: 20px;
+}
+/* Footer */
+.footer {
+  padding: 20px;
+  text-align: center;
+  background: #ddd;
+}
+
