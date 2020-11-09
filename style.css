@@ -58,13 +58,14 @@
 .side {
   flex: 30%;
   background-color: #f1f1f1;
-  padding: 20px;
+  padding: 100px;
 }
 /* Main column */
 .main {
   flex: 70%;
   background-color: white;
-  padding: 20px;
+  padding: 100px;
+
 }
 /* Footer */
 .footer {
@@ -72,4 +73,14 @@
   text-align: center;
   background: #ddd;
 }
+.cont {
+  display: flex;
+  padding: 50px;
+}
 
+.post-preview {
+  margin-left: 40px;
+}
+.cont > img {
+  height: 300px;
+}
