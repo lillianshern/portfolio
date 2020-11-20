@@ -84,6 +84,15 @@
 .cont > img {
   height: 300px;
 }
+
+.mobile-menu {
+  display: none;
+}
+
+.visible {
+  display: flex;
+}
+
 @media only screen and (max-width: 600px) {
   .try {
       display: grid;
