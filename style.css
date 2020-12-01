@@ -115,6 +115,15 @@
     text-align: center;
     margin-left: 0;
   }
+  header.masthead {
+    margin-bottom: 0;
+    height: 100vh;
+    background: no-repeat center center;
+    background-color: #868e96;
+    background-attachment: scroll;
+    position: relative;
+    background-size: cover
+  }
 }
 .changeColor{
   background-color: #f2f2f2;
