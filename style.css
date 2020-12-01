@@ -99,9 +99,8 @@
   .mobile-menu {
       display: grid;
       grid-template-columns: auto ;
-      background-color: #f2f2f2;
       border: none;
-      color: white;
+      color: #f2f2f2;
       padding: 15px 32px;
       text-align: center;
       text-decoration: none;
@@ -111,6 +110,10 @@
   }
   .cont {
     flex-direction: column;
+  }
+  .post-preview {
+    text-align: center;
+    margin-left: 0;
   }
 }
 .changeColor{
