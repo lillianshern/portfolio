@@ -11,7 +11,7 @@
   background-image: url("logan-weaver-vPdSlSyTjss-unsplash.jpg");
   height: 100vh;
   width: 100%;
-  /* cahnge pic stretch to fit */
+  /* change pic stretch to fit */
   background-size: cover; 
   /* position of img */
   background-position: center;
@@ -81,6 +81,7 @@
 
 .post-preview {
   margin-left: 40px;
+  text-align: center;
 }
 .cont > img {
   height: 300px;
@@ -94,7 +95,7 @@
   display: flex;
 }
 
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 700px) {
   .mobile-menu {
       display: grid;
       grid-template-columns: auto ;
@@ -106,6 +107,10 @@
       text-decoration: none;
       display: inline-block;
       font-size: 16px;
+      width: 100%;
+  }
+  .cont {
+    flex-direction: column;
   }
 }
 .changeColor{
